@@ -39,7 +39,7 @@ jobs:
         pytest
         
   pjob:
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     steps:
     - name: parallel job
       run: echo "parallel"
